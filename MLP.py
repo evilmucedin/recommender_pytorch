@@ -169,7 +169,7 @@ def main():
     # do the epochs now
 
     for epoch in range(epochs):
-        epoch_loss = train_one_epoch( model, training_data_generator, loss_fn, optimizer, epoch, device)
+        epoch_loss = train_one_epoch(model, training_data_generator, loss_fn, optimizer, epoch, device)
 
         if epoch % verbose == 0:
             hr, ndcg = test(model, full_dataset, topK)
