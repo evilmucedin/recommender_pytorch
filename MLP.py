@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Author: Harshdeep Gupta
 # Date: 26 September, 2018
 # Description: A PyTorch implementation of Xiangnan's work , implementing the MLP model

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Author: Harshdeep Gupta
 # Date: 02 October, 2018
 # Description: Implements the item popularity model for recommendations
